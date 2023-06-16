@@ -7,9 +7,11 @@
    int main(avoid)
 {
 	char c ;
-	for ( c = a ; c!=e ; c!=d ; c<=z )
+	for ( c = a ; c <= z ; c != e ; c != d  )
 	{c++}
-        putchar ('c') ;
+    {
+        putchar (c) ;
 	putchar ('\n')
-return 0;
+    }
+		return 0;
 }
