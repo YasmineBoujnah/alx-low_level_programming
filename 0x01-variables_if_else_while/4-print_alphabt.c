@@ -4,14 +4,18 @@
  *
  * Return: Zero value
 */
-   int main(avoid)
+   int main(void)
 {
-	char c ;
-	for ( c = a ; c <= z ; c != e ; c != d  )
-	{c++}
-    {
-        putchar (c) ;
-	putchar ('\n')
-    }
-		return 0;
+	char c = 'a';
+
+	while (c <= 'z')
+	{
+		if (c != 'q' && c != 'e')
+		{
+			putchar(c);
+		}
+		c++;
+	}
+	putchar('\n');
+	return (0);
 }
